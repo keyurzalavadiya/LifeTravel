@@ -34,7 +34,7 @@
 
                 <!-- Email -->
                 <div class="col-md-4">
-                    <label for="Email" class="form-label">Email:</label>
+                    <label for="Email" class="form-label">Email_Id:</label>
                     @Html.TextBoxFor(m => m.Email, new { @class = "form-control", id = "Email", type = "email", required = "required", placeholder = "Enter your email" })
                     @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
                 </div>
